@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HealthConnect Support</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🏥 HealthConnect Support</h1>
+
+<!-- FORM -->
+<form id="supportForm">
+  <input type="text" id="name" placeholder="Name" required>
+  <input type="email" id="email" placeholder="Email" required>
+  <input type="text" id="phone" placeholder="Phone">
+
+  <select id="role">
+    <option value="Patient">Patient</option>
+    <option value="Volunteer">Volunteer</option>
+  </select>
+
+  <textarea id="message" placeholder="Your Message"></textarea>
+
+  <button type="submit">Submit</button>
+</form>
+
+<p id="responseMsg"></p>
+
+<hr>
+
+<!-- CHATBOT -->
+<h2>💬 FAQ Chatbot</h2>
+
+<div id="chatbox">
+  <div id="chatlogs"></div>
+
+  <input type="text" id="userInput" placeholder="Ask something...">
+  <button onclick="sendMessage()">Send</button>
+</div>
+
+<hr>
+
+<!-- DATA SUMMARY -->
+<h2>📊 Summary</h2>
+<p>Total Patients: <span id="patients">0</span></p>
+<p>Total Volunteers: <span id="volunteers">0</span></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>

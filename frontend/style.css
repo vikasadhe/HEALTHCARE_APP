@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+input, select, textarea {
+  width: 90%;
+  margin: 10px;
+  padding: 8px;
+}
+
+button {
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#chatbox {
+  background: white;
+  padding: 15px;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#chatlogs {
+  height: 150px;
+  overflow-y: auto;
+  text-align: left;
+  margin-bottom: 10px;
+}
